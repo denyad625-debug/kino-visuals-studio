@@ -1,0 +1,20 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# PDF files are binary
+*.pdf binary
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Archives are binary
+*.zip binary
+*.tar.gz binary
+*.7z binary
+
+# Lock files are binary
+*.lock binary

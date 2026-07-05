@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# Logs
+*.log
+
+# Models (large binary files)
+models/
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Output
+output/
+renders/
+test_output/
+test_output_6s/
+
+# Geometry
+output_meshes/
+*.glb
+*.obj
+*.stl
+*.ply
+
+# Blender
+*.blend
+*.blend1
+
+# DNA vault (contains reference video analysis)
+dna_vault/
+
+# Reports (internal)
+reports/
+
+# Plans (internal)
+plans/
+
+# Backups
+backups/
+
+# Config with local paths
+kino_config.json
